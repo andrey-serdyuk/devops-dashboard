@@ -1,0 +1,45 @@
+    1  2026-04-22 14:09:48 clear
+    2  2026-04-22 14:17:16 cd ../
+    3  2026-04-22 14:17:39 git clone https://github.com/andrey-serdyuk/devops-dashboard.git~
+    4  2026-04-22 14:17:45 git clone https://github.com/andrey-serdyuk/devops-dashboard.git
+    5  2026-04-22 15:25:01 cd devops-dashboard
+    6  2026-04-22 15:25:04 clear
+    7  2026-04-22 15:25:06 ls -a
+    8  2026-04-22 15:25:55 touch main.py
+    9  2026-04-22 15:50:51 clear
+   10  2026-04-22 15:50:54 git status
+   11  2026-04-22 15:50:59 got add main.py
+   12  2026-04-22 15:51:05 git add main.py
+   13  2026-04-22 15:51:18 git commit -m 'Menu created'
+   14  2026-04-22 15:51:26 git push
+   15  2026-04-22 18:23:39 clear
+   16  2026-04-22 18:23:41 git status
+   17  2026-04-22 18:23:44 git pull
+   18  2026-04-22 18:23:48 clear
+   19  2026-04-22 18:23:56 git log --oneline
+   20  2026-04-22 19:18:02 clear
+   21  2026-04-22 19:18:04 git status
+   22  2026-04-22 19:18:06 git add .
+   23  2026-04-22 19:18:38 git commit -m 'Main menu implementation'
+   24  2026-04-22 19:18:40 git push
+   25  2026-04-22 19:30:01 git config --global user.name andrey-serdyuk
+   26  2026-04-22 19:30:14 git config --global user.email andrey.serdyuk.developer@gmail.com
+   27  2026-04-22 19:30:52 ssh-keygen -t ed25519 -C "andrey.serdyuk.developer@gmail.com"
+   28  2026-04-22 19:32:17 cat ~/.ssh/id_ed25519.pub
+   29  2026-04-22 19:33:16 ssh-keygen -t ed25519 -C "andrey.serdyuk.developer@gmail.com"
+   30  2026-04-22 19:34:03 cat ~/.ssh/id_ed25519.pub
+   31  2026-04-22 19:34:43 clear
+   32  2026-04-22 19:34:46 ssh-keygen -t ed25519 -C "andrey.serdyuk.developer@gmail.com"
+   33  2026-04-22 19:34:51 cat ~/.ssh/id_ed25519.pub
+   34  2026-04-22 19:42:09 ssh -T git@github.com
+   35  2026-04-22 19:43:17 git remote -v
+   36  2026-04-22 19:53:47 git remote set-url origin git@github.com:andrey-serdyuk/devops-dashboard.git
+   37  2026-04-22 19:53:51 git remote -v
+   38  2026-04-22 19:55:18 echo "SSH authentication enabled" >> README.md
+   39  2026-04-22 19:55:20 clear
+   40  2026-04-22 19:55:24 git status
+   41  2026-04-22 19:55:27 git add .
+   42  2026-04-22 19:55:45 git commit -m "switch to SSH authentication"
+   43  2026-04-22 19:55:48 git push
+   44  2026-04-22 20:52:12 history > history.txt
+   45  2026-04-22 20:54:03 HISTTIMEFORMAT="%F %T " history | grep "$(date +%F)" > history.txt
