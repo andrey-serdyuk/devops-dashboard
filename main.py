@@ -1,3 +1,8 @@
+from system_info import system_info
+from log_checker import check_log
+from task_manager import manage_tasks
+
+
 def show_menu():
     print("\n=== Main Menu ===")
     print("[1] System Info")
@@ -12,11 +17,11 @@ def main():
         choice = input("Select an option: ").strip()
 
         if choice == "1":
-            print("Coming soon...")
+            system_info()
         elif choice == "2":
-            print("Coming soon...")
+            check_log()
         elif choice == "3":
-            print("Coming soon...")
+            manage_tasks()
         elif choice == "0":
             print("Goodbye!")
             break
